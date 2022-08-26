@@ -188,11 +188,43 @@ footer {
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
- nav, article {
-   width: 100%;
-   height: auto;
- }
+@media (max-width: 768px) {
+  body, section, nav, article {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3 {
+    margin: 10px;
+  }
+
+  p {
+    padding: 0.5px;
+  }
+
+  .titulo, .sobre .sobreTitulo, .competencias .competenciasTitulo, .experiencia .experienciaTitulo, .formacao .formacaoTitulo, .cursos .cursosTitulo, .redes .redesTitulo {
+    font-size: 1rem;
+    margin: 0.5px;
+    padding: 0.5px;
+  }
+
+  .competencia1, .competencia2, .competencia3, .competencia4, .competencia5, .competencia6, .competencia7, .experiencia1, .experiencia2, .experiencia3, .experiencia4, .formacao1, .formacao2, .cursos1, .cursos2 , .redes1 {
+    font-size: 1rem;
+    margin: 01px;
+    padding: 05px;
+    text-align: left;
+  }
+
+  .LinkGitHub {
+    font-size: 0.5rem;
+  }
+
+  .LinkPrograma {
+    font-size: 0.5rem;
+  }
+
 }
 
 /*
